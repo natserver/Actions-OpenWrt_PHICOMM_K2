@@ -8,13 +8,13 @@
 name: Build OpenWrt 16M
 
 on: 
-  release:
-    types: [published]
-  push:
-    branches: 
-      - master
-  schedule:
-    - cron: 0 8 * * 5
+#  release:
+#    types: [published]
+#  push:
+#    branches: 
+#      - master
+#  schedule:
+#    - cron: 0 8 * * 5
   watch:
     types: [started]
 
@@ -165,7 +165,7 @@ jobs:
         # CONFIG_PACKAGE_luci-app-aliddns is not set
         # CONFIG_PACKAGE_luci-app-amule is not set
         # CONFIG_PACKAGE_luci-app-aria2 is not set
-        CONFIG_PACKAGE_luci-app-arpbind=y
+        # CONFIG_PACKAGE_luci-app-arpbind=y
         # CONFIG_PACKAGE_luci-app-asterisk is not set
         # CONFIG_PACKAGE_luci-app-attendedsysupgrade is not set
         # CONFIG_PACKAGE_luci-app-autoreboot=y
@@ -197,8 +197,8 @@ jobs:
         # CONFIG_PACKAGE_luci-app-fileassistant is not set
         # CONFIG_PACKAGE_luci-app-filebrowser is not set
         # CONFIG_PACKAGE_luci-app-filetransfer is not set
-        CONFIG_PACKAGE_luci-app-firewall=y
-        CONFIG_PACKAGE_luci-app-flowoffload=y
+        # CONFIG_PACKAGE_luci-app-firewall=y
+        # CONFIG_PACKAGE_luci-app-flowoffload=y
         # CONFIG_PACKAGE_luci-app-freifunk-diagnostics is not set
         # CONFIG_PACKAGE_luci-app-freifunk-policyrouting is not set
         # CONFIG_PACKAGE_luci-app-freifunk-widgets is not set
@@ -239,8 +239,8 @@ jobs:
         # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ipt2socks=y
           CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_socks=y
           CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_socks=y
-        # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray=y
-        # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan=y
+          CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray=y
+          CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan=y
         # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y
         # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_kcptun=y
         # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_haproxy=y
