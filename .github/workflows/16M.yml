@@ -238,9 +238,9 @@ jobs:
           CONFIG_PACKAGE_luci-app-passwall=y
         # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ipt2socks=y
           CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_socks=y
-          CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_socks=y
+        # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_socks=y
           CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray=y
-          CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan=y
+        # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan=y
         # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y
         # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_kcptun=y
         # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_haproxy=y
